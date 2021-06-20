@@ -60,7 +60,7 @@ fn main() {
             .file("lua/lutf8lib.c")
             .file("lua/lvm.c")
             .file("lua/lzio.c")
-            .compile("liblua5.4.a");
+            .compile("liblua5.2.a");
     }
 
     #[cfg(feature = "system-lua")]
