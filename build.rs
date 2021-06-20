@@ -27,6 +27,7 @@ fn main() {
         }
 
         config
+            .cpp(true)
             .include("lua")
             .file("lua/src/lapi.c")
             .file("lua/src/lauxlib.c")
